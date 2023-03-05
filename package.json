@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "rm -rf dist && npx webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@webpack-cli/serve": "^2.0.1",
+    "css-loader": "5.2.7",
+    "html-webpack-plugin": "4",
+    "style-loader": "2.0.0",
     "webpack": "4",
     "webpack-cli": "3"
+  },
+  "dependencies": {
+    "webpack-dev-server": "3.11.0"
   }
 }
