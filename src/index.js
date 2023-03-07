@@ -1,8 +1,8 @@
 import x from "./x.js";
 import png from "./assets/111.png";
-
+console.log(png);
 const div1 = document.getElementById("div1");
-div1.innerHTML = `<img src="${png}"/>`;
+/* div1.innerHTML = `<img src="${png}"/>`; */
 
 const button = document.createElement("button");
 button.innerText = "点击懒加载";
