@@ -15,12 +15,17 @@
     "@webpack-cli/serve": "^2.0.1",
     "css-loader": "5.2.7",
     "dart-sass": "^1.25.0",
+    "file-loader": "5.0.2",
     "html-webpack-plugin": "4",
+    "less": "2.1.2",
     "style-loader": "2.0.0",
+    "stylus": "0.54.7",
+    "stylus-loader": "3.0.2",
     "webpack": "4",
     "webpack-cli": "3"
   },
   "dependencies": {
+    "less-loader": "5.0.0",
     "mini-css-extract-plugin": "1.6.0",
     "sass-loader": "7.1.0",
     "webpack-dev-server": "3.11.0"
